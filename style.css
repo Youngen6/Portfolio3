@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(152, 231, 255, 0.5), rgb(255, 255, 255)), url('minimalist-winter-art-snow-wallpaper-preview.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    color: lightskyblue;
+    font-size: 5rem;
+    font-family: 'Sacramento', cursive;
+    margin-top: 350px;
+    padding-top: 20px;
+}
+
+.title1 {
+    color: lightslategray;
+    font-size: 2rem;
+    font-family: 'Montserrat', cursive;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+/* Path: Portfolio/index.html */
+
+.container {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;;
+        margin: 0 auto; /* Center the picture horizontally */
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.design {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto; /* Center the picture horizontally */
+    margin-top: 20px;
+}
+.design img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.development {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto; /* Center the picture horizontally */
+    margin-top: 20px;
+    width: 100%;
+}
+
+.slika {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.btn{
+    background: #11cdd4;
+    background-image: none;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    height: 35px;
+    width: 150px;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: none;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc2a3);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc2a3);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc2a3);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc2a3);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc2a3);
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background: lightblue;
+    width: 200vh;
+    margin-top: 100px;
+    padding: 0;
+}
